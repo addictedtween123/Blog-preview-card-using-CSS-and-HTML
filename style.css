@@ -1,0 +1,73 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:Figtree-VariableFont_wght ;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body{
+    font-family: Figtree-VariableFont_wght;
+    background-color: hsl(47, 88%, 63%);
+     font-size: 16px;
+}
+img{     
+     
+    margin-top: 28px ; 
+    width: 320px;      
+    border-radius: 8px;
+}
+b{
+    font-size: 20px;
+}
+.tu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color:white;
+    width: 354px;
+    height: 520px;
+    padding-left: 30px;
+    box-shadow: 12px 12px ; 
+    border-radius: 35px;
+    border: solid 1px black;
+     
+}
+
+.moi{
+    color: black;
+    background-color: hsl(47, 88%, 63%);
+    height: 30px;
+    width: 90px;
+    text-align: center;     
+    margin-top: 28px;   
+    border-radius: 10px;
+    font-size: 12px;
+}
+ 
+#par{
+    position: relative;
+    left: 40px;
+    font-size: 3px;
+    top: -30px;
+}
+.glasses{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;    
+     
+}
+@media screen and (max-width: 600px){
+     body{         
+        width: 0px;
+        margin-top: 100px;      
+     }
+     .tu{
+        
+        box-shadow: 10px 10px;
+        margin: 25px;
+                
+         
+     }
+}
